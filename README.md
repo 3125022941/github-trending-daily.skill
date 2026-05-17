@@ -24,9 +24,9 @@ pip install openai beautifulsoup4 requests --break-system-packages
 
 | 配置项 | 默认值 | 说明 |
 |--------|--------|------|
-| DeepSeek API Key | sk-64def66e3fd449608ec95fa477c204fc | 用于生成中文摘要 |
+| DeepSeek API Key | 待填入 | 用于生成中文摘要 |
 | QQ 邮箱账号 | 3125022941@qq.com | 发件/收件邮箱 |
-| SMTP 授权码 | yilrpkozeuuxddjc | QQ 邮箱 SMTP 授权码 |
+| SMTP 授权码 | 待填入 | QQ 邮箱 SMTP 授权码 |
 | 日报保存路径 | /workspace/trending_YYYY-MM-DD.md | Markdown 日报文件 |
 | 封面图 Prompt 路径 | /workspace/cover_prompt_YYYY-MM-DD.json | 封面图生成 prompt |
 
@@ -49,9 +49,9 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 # ============ 配置区 ============
-DEEPSEEK_API_KEY = "sk-64def66e3fd449608ec95fa477c204fc"
+DEEPSEEK_API_KEY = ""
 SENDER_EMAIL = "3125022941@qq.com"
-SENDER_PASSWORD = "yilrpkozeuuxddjc"  # SMTP 授权码
+SENDER_PASSWORD = ""  # SMTP 授权码
 RECEIVER_EMAIL = "3125022941@qq.com"
 # ================================
 
